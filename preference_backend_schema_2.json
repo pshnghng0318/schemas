@@ -74,7 +74,7 @@
             "description": "file_io_concurrency for Zarr",
             "type": "integer",
             "minimum": 1,
-            "maximum": 64,
+            "maximum": 8,
             "default": 2
         },
         "top_level_folder": {

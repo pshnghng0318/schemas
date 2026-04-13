@@ -409,7 +409,7 @@
         "file_io_concurrency": {
             "type": "integer",
             "minimum": 1,
-            "maximum": 64,
+            "maximum": 8,
             "description": "file_io_concurrency for Zarr.",
             "default": 2
         }
