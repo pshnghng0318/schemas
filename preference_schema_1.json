@@ -412,6 +412,11 @@
             "maximum": 8,
             "description": "file_io_concurrency for Zarr.",
             "default": 2
+        },
+        "cache_pool_size": {
+            "type": "integer",
+            "description": "cache pool size for Zarr",
+            "default": 64
         }
     }
 }

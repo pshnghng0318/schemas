@@ -58,6 +58,11 @@
             "maximum": 8,
             "default": 2
         },
+        "cache_pool_size": {
+            "description": "cache pool size for Zarr",
+            "type": "integer",
+            "default": 64
+        },
         "top_level_folder": {
             "type": "string",
             "minLength": 1,
