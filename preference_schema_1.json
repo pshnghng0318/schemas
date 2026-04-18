@@ -406,17 +406,4 @@
             "description": "Set a timer (in minutes) to stop animation playback automatically to save computing resources.",
             "default": 5
         },
-        "file_io_concurrency": {
-            "type": "integer",
-            "minimum": 1,
-            "maximum": 8,
-            "description": "file_io_concurrency for Zarr.",
-            "default": 2
-        },
-        "cache_pool_size": {
-            "type": "integer",
-            "description": "cache pool size for Zarr",
-            "default": 64
-        }
-    }
 }
