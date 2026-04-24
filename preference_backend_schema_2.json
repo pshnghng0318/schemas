@@ -70,7 +70,7 @@
             "type": "integer",
             "default": -1
         },
-        "file_io_concurrency": {
+        "file_io": {
             "description": "file_io_concurrency for Zarr",
             "type": "integer",
             "minimum": 1,
