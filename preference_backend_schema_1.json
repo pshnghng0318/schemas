@@ -55,13 +55,17 @@
             "description": "file_io_concurrency for Zarr",
             "type": "integer",
             "minimum": 1,
-            "maximum": 8,
             "default": 2
         },
         "cache_pool": {
             "description": "cache pool size for Zarr",
             "type": "integer",
-            "default": 64
+            "default": 1
+        },
+        "batch_MB": {
+            "description": "batch size in MB for Zarr",
+            "type": "integer",
+            "default": 128
         },
         "top_level_folder": {
             "type": "string",
